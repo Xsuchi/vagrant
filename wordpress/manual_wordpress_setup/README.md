@@ -10,7 +10,7 @@ Reference: [Ubuntu WordPress Tutorial](https://ubuntu.com/tutorials/install-and-
 
 Before we begin, let’s download the **Ubuntu Server 20.04** Vagrant box.
 
-1. Go to [Vagrant Cloud](https://portal.cloud.hashicorp.com/vagrant/discover?query=) and search for `ubuntu/focal64`. ![alt text](image.png)
+1. Go to [Vagrant Cloud](https://portal.cloud.hashicorp.com/vagrant/discover?query=) and search for `ubuntu/focal64`. ![vagrant cloud](img/image.png)
 2. Note the latest box version (e.g., `20240821.0.1`).
 
 ---
@@ -43,7 +43,7 @@ You should see a file named `Vagrantfile`.
 ```bash
 vagrant status
 ```
-![Terminal window showing commands: vagrant init ubuntu/focal64 --box-version 20240821.0.1, ls displaying Vagrantfile, and vagrant status showing default machine not created](image-1.png)
+![Terminal window showing commands: vagrant init ubuntu/focal64 --box-version 20240821.0.1, ls displaying Vagrantfile, and vagrant status showing default machine not created](img/image-1.png)
 > At this point, the VM is not yet created.
 
 ---
@@ -86,8 +86,8 @@ Then follow the steps from the official Ubuntu tutorial to install and configure
 
 ## 🖼️ Screenshots (Optional)
 
-![wordpress site](image-2.png)
-![wordpress site](image-3.png)
-![wordpress site](image-4.png)
-![wordpress site](image-5.png)
-![wordpress site](image-6.png)
+![wordpress site](img/image-2.png)
+![sign up page](img/image-3.png)
+![wordpress site](img/image-4.png)
+![login page](img/image-5.png)
+![dashboard](img/image-6.png)
